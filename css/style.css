@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: Inter,sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding:40px 0px;
+}
+
+.user-image{
+    text-align: center;
+}
+
+.user-image img{
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+.user-name{
+    padding-top:20px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.user-location{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    padding-top: 5px;
+}
+
+.user-description{
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.social-links{
+    margin-top:30px;
+
+}
+
+a{
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    width:100%;
+    border-radius: 10px;
+    background-color:hsl(0, 0%, 20%);
+    padding:12px;
+    margin: 10px auto;
+    width:75%;
+}
+
+a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
+}
+
+

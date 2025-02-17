@@ -55,11 +55,10 @@ body{
 }
 
 a{
-    text-align: center;
     display:block;
+    text-align: center;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
-    width:100%;
     border-radius: 10px;
     background-color:hsl(0, 0%, 20%);
     padding:12px;
